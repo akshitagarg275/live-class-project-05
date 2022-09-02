@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin : 0;
+    outline: 0;
+}
+
+.container{
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+    height: 15vh;
+}
+
+nav + div {
+    margin-right: 10px;
+}
+
+.logo{
+    width: 120px;
+}
+
+.line{
+    position: relative;
+    right: 100px;
+    border-left: 1px solid #FFF;
+    height: 60px;
+}
+
+.grow-list{
+    position: relative;
+    right: 200px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap : 55px
+}
+
+.button-small{
+    padding: 10px 20px;
+    color: #FFF;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: #BA0CC5;
+}
+
+.down{
+    margin-left: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    color: #FFF;
+    border: solid #FFF;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+
+}
+
+.hero {
+    height: 120vh;
+    background-image: url('./assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-heading{
+    color: #FFF;
+    margin: 10% 15% 0 15%;
+    font-family: 'Poppins';
+    font-size: 4em;
+    text-align: center;
+}
+
+.hero-description{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    margin-bottom: 7%;
+}
+
+.button-large{
+    padding: 10px 30px;
+    color: #FFF;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: #BA0CC5;
+    border: none;
+    font-size: 1.5em;
+}
