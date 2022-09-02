@@ -4,4 +4,4 @@
     - HTML
     - CSS
 
-![alt text](./assets/snapshot.png?raw=true "optional")
+![alt text](./assets/screenshot.png?raw=true "optional")
